@@ -1,0 +1,48 @@
+.main {
+    background-color: rgb(223, 218, 218);
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main p {
+    margin-top: 50px;
+
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(65, 105, 225);
+    margin-top: 100px;
+    height: 40%;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.card nav {
+    display: flex;
+    align-items: center;
+}
+
+.card nav h3 {
+
+    margin-left: 50px;
+    color: var(--amber);
+}
+
+.card nav span {
+    color: white;
+    margin-left: 10px;
+}

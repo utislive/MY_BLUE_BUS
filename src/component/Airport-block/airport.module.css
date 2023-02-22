@@ -1,0 +1,59 @@
+.main
+{   position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color:#f4f4f4;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+.div1
+{ height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.div1 h3
+{ font-size: 17px;
+}
+.div1 h1
+{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div2
+{
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn
+{
+    cursor: pointer;
+    height: 26%;
+    width: 87%;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:800;
+    box-sizing: border-box;
+    color: #465986;
+    border: 1px solid #465986;
+    transition-duration: 0.2s;
+
+
+}
+.btn:hover
+{
+  background-color: rgba(0, 0, 0, 0.314);
+  color: white;
+  border-color: transparent;
+}

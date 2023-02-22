@@ -1,0 +1,165 @@
+.main
+{
+    position: relative;
+    height: 100rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2.2fr 2fr 1.5fr 0.8fr;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.one,.two,.three,.four
+{
+  
+  position: relative;
+}
+.one
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+.two
+{
+    background-image: url("https://lovingaustralia.de/wp-content/uploads/2017/05/170526094844002-e1537909133148.jpg");
+    background-size: cover;
+    background-position:50%;
+    background-repeat: no-repeat;
+}
+.three
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.three h1
+{
+    
+    font-weight: 700;
+}
+.three p:nth-of-type(1),.three p:nth-of-type(2)
+{
+    color: rgba(0, 0, 0, 0.7 );
+    width: 80%;
+    text-align: center;
+}
+.text
+{
+ 
+  height: 400px;
+  width:500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.text h1
+{ width: 100%;
+  font-size: 33px;
+  font-weight: 700;
+}
+.text p
+{   width: 100%;
+    margin-top: 20px;
+    color: rgb(103, 102, 102);
+}
+.image
+{  position: relative;
+   height: 250px;
+   width: 700px;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   margin-top: 100px;
+   flex-wrap: wrap;
+   
+}
+.image img
+{
+    height: 35px;
+    margin: 8px;
+}
+.four 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{  position: relative;
+
+    height:90%;
+    width:75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.abs
+{
+    background-color:#4169e14f ;
+    position: absolute;
+    height: 70%;
+    width: 95%;
+    border-radius: 2px;
+}
+.imge 
+{
+    z-index: 1;
+    height: 100%;
+    width: 179px;
+    display: flex; 
+   justify-content: center;
+}
+.imge img
+{
+    
+     height: 150px;
+    
+}
+.text1
+{
+     
+    height: 115px;
+    width: 50%;
+    z-index: 1;
+    
+}
+.text1 h1
+{
+    
+    font-size: 25px;
+    font-weight: 700;
+}
+.text1 p
+{  margin-top: 17px;
+ 
+    font-weight: 700;
+    color: rgb(103, 102, 102);
+}
+
+
+
+.btn
+{
+    background-color: #4169E1;
+    z-index: 1;
+    height: 22%;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover
+{
+   
+    background-color: #4169e1e2;
+    color: rgb(255, 255, 255);
+
+}

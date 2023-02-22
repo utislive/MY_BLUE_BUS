@@ -1,0 +1,53 @@
+.core {
+  height: 100vh;
+  width: 100vw;
+}
+
+.core2 {
+  width: 100%;
+  position: absolute;
+}
+
+.subcore1 {
+  height: 81px;
+  position: relative;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+body::-webkit-scrollbar-track {
+
+  background: rgb(210, 207, 207);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #4169e1e2;
+  border-radius: 10px;
+}
+
+
+.move {
+  animation-name: move;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}

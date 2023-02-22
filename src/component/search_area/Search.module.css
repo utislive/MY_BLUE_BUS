@@ -1,0 +1,180 @@
+:root
+{
+    --royal_blue:#4169E1;
+}
+.main
+{   
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Montserrat', sans-serif;
+}
+.image
+{
+    width: 100%;
+    height: 55%;
+    background-image: url("https://st.redbus.in/Images/rdc/HeroRDC.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.image h1
+{    
+    font-size: 26px;
+    font-weight:700;
+    height: 30px;
+    margin-top: 20px;
+    letter-spacing:0.5px;
+}
+.cads
+{
+    width: 100%;
+    height:45%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #f6f9ff; 
+}
+.cards1
+{
+  display: flex;
+  width:280px;
+
+}
+
+.text
+{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+.text h1
+{
+    font-size:17px;
+    
+}
+.text p
+{   margin-top: 10px;
+    font-size: 15px;
+}
+.test1
+{
+    
+    width: 110%;
+}
+.Search_bar
+{   
+    position: absolute;
+    height: 17vh;
+    width: 75vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.Search_menu
+{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 0.5px solid rgba(128, 128, 128, 0.396);
+    height: 70%;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.6fr;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+    
+}
+.Search_menu section
+{
+    
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Search_menu section:nth-of-type(3),.Search_menu section:nth-of-type(4)
+{
+    box-shadow: -7px 0px 0px -6px gray;
+}
+.Search_menu section:nth-of-type(1)
+{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+
+}
+.Search_menu section:nth-of-type(5)
+{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--royal_blue);
+    color: white;
+    font-weight:900;
+    font-size: 14px;
+    cursor: pointer;
+}
+.first_box
+{ position: relative;
+  height: 70%;
+  width: 85%;
+  border-radius: 5px;
+  box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.first_box:hover
+{
+    
+    border: 1px solid #FF007F ;
+    background-color:#eac3d7 ;
+    /* #FF007F */
+    /* rgb(5, 165, 112)  */
+    /* rgba(96, 233, 187, 0.21) */
+}
+.first_box p{
+   
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+.first_box div{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first_box div input
+{    
+    height: 60%;
+    width:87%;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none;
+    font-weight: 600;
+    border-color: transparent;
+    background-color: transparent;
+
+}
+.first_box div input::-webkit-input-placeholder
+{
+    font-weight: 100;
+}
+
+.Search_menu section:nth-of-type(1) i
+{
+    
+    font-size: 21px;
+    color: black;
+}
